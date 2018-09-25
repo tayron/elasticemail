@@ -1,0 +1,22 @@
+{
+"name": "tayron/elasticemail",
+"description": "Plugin para envio de email usando Elastic Email usando Laravel",
+"type": "library",
+"homepage": "https://github.com/tayron/elasticemail",
+"license": "MIT",
+"authors": [
+	{
+		"name": "Tayron Miranda",
+		"email": "contato@tayron.com.br"
+	}
+],
+"minimum-stability": "stable",
+"require": {
+	"laravel/framework": "5.1.x|5.2.x|5.3.x"
+},
+"autoload": {
+	"psr-4": {
+		"Tayron\\ElasticEmail\\": "src"
+	}
+}
+}
