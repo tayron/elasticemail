@@ -8,7 +8,7 @@ class TransportManager extends OriginalTransportManager
 {
     protected function createElasticEmailDriver() 
     {
-        $config = $this->app['config']->get('services.elastic_email', []);
+        $config = $this->app['config']->get('services.elasticemail', []);
         return new ElasticTransport($config['key']);
     }
 }
