@@ -34,6 +34,6 @@ Abra o arquivo config/app.php e adicione um novo ServiceProvider:
 Abra seu arquivo .env e adicione elasticemail como drive para envio de email:
 ```env
     ...
-    MAIL_DRIVER=elastic_email
+    MAIL_DRIVER=elasticemail
 ```
 
