@@ -13,7 +13,7 @@ composer require tayron/elasticemail
 Adicione a seguinte configuração no arquivo: config/services.php:
 ```php
 'elasticemail' => [
-    'key' => env('ELASTIC_EMAIL_API_KEY_KEY')
+    'key' => env('ELASTIC_EMAIL_API_KEY')
 ]
 ```
 
